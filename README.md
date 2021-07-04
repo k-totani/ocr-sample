@@ -19,3 +19,20 @@ tesseract -l jpn sample.png result
 # 抽出結果を表示します
 cat result.txt
 ```
+
+## サンプル実行結果
+
+
+### サンプル画像
+
+![サンプル画像](images/sample.png)
+
+### 解析結果
+
+```
+ocr-sample
+
+「Tesseract」 を 触っ て みた プロ ジェ クト で す 。
+
+docker で 環境 構築 を 行い サー バー な いで コマ ンド を 叩く こと を 想定 し て いま す 。
+```
